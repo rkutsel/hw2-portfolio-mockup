@@ -69,7 +69,7 @@ ul a:active {
 .nav span {
   /* margin: -80px; */
   display: inline-flex;
-  font-family: "Arial Black";
+  font-family: 'Arial Black';
   position: relative;
   left: 50%;
   top: 75px;
