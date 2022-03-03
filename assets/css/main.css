@@ -145,6 +145,7 @@ ul a:active {
 /* Container for <section> flexboxes */
 .section {
   display: flex;
+  width: 100%;
 }
 
 .section-left {
@@ -154,7 +155,7 @@ ul a:active {
   color: var(--light-blue);
   display: flex;
   justify-content: flex-end;
-  border-right: 3px solid var(--light-blue);
+  /* border-right: 3px solid var(--light-blue); */
   padding: 10px;
   width: 25%;
 }
@@ -164,10 +165,11 @@ ul a:active {
   /* flex: 0 0; */
   display: flex;
   flex-wrap: wrap;
+  border-left: 3px solid var(--light-blue);
   /* flex-direction: column; */
   /* flex: 0 0 300px; */
   width: 75%;
-  margin: 30px;
+  margin-top: 30px;
 }
 
 .section-right p {
@@ -185,7 +187,7 @@ ul a:active {
   /* align-content: space-between; */
   gap: 15px 5px;
   flex-wrap: wrap;
-  /* margin: 4em 1em; */
+  margin: 4em 1em;
 }
 
 .box-container section {
@@ -257,6 +259,14 @@ ul a:active {
     height: 305px;
 }
 
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 50%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* Media queries optimised for mobile defined here */
 @media (max-width: 768px) {
   .section {
@@ -267,7 +277,11 @@ ul a:active {
   .header, .section-left {
     display: none;
   }
- 
+
+  .section-right {
+    border: none;
+  }
+
   .nav {
     display: flex;
     position: relative;
