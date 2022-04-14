@@ -30,13 +30,15 @@
             <a class="navbar-item">
               My Resume &nbsp<ion-icon name="document"></ion-ico>
             </a>
+              <a class="navbar-item js-modal-trigger" data-target="modal-about-me"> About Me &nbsp
+                <ion-icon name="information-circle"></ion-icon>
+              </a>
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link"> More </a>
               <div class="navbar-dropdown">
-                <a class="navbar-item"> About </a>
                 <a class="navbar-item"> Contact </a>
                 <hr class="navbar-divider" />
-                <a class="navbar-item"> Report an issue </a>
+                <a class="navbar-item"> Report An Issue </a>
               </div>
             </div>
           </div>
@@ -220,9 +222,6 @@
 
         </section>
       </div>
-
-
-
       </div>
     </div>
     <footer class="footer">
@@ -232,5 +231,39 @@
         <a href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
       </div>
     </footer>
+<!-- about me modal -->
+    <div id="modal-about-me" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">In a few words...</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <strong>Who I am</strong>
+          <p>A no-voice software developer with extensive background in backend infrastructure. 
+            In the last few years my focus and energy shifted from building and deploying computing resources in data-centers to 
+          building things in the cloud: <strong>AWS</strong>, <strong>Azure</strong> and <strong>GCP</strong>.</br></br>
+
+          Currently enrolled in a <a href="https://bootcamp.uw.edu/coding/" target="_blank"><strong>UW Coding Bootcamp</strong></a> program that exposed me to interesting challenges of full-stack
+          software development.
+          I plan on updating my projects as I go through the program along with the ones I will be working on the side.</br></br>   
+        </p>
+          <strong>What I like outside of my work</strong>
+          <p>Everything that beautiful <strong>PNW</strong> has to offer. Luckily we have a lot out here.</br></br>
+        </p>
+        <strong>Want to work on things together?</strong>
+        <p>Then please reach out to me and let's talk about it!</p>
+        </section>
+        <footer class="modal-card-foot is-justify-content-center">
+          <div class="content">
+            <a href="https://www.linkedin.com/in/rkutsel"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
+            <a href="https://github.com/rkutsel" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="./assets/js/modal.js"></script>
   </body>
 </html>
