@@ -4,7 +4,7 @@
 
 Placeholder for the personal web page portfolio homework assignment. My approach was to mimic the look of the actual mockup page we got in the assignment. The end result looks very close to the original page with some slightly different touches that were added based on the user story and the acceptance criteria. Additionally included links to guides/articles that helped with the assignment. [Live Page](https://rkutsel.github.io/personal-portfolio-page/)
 
-## User Story
+## User Story From Previous Assignment
 
 ```
 AS AN employer
@@ -13,7 +13,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ```
 
 
-## Acceptance Criteria
+## Acceptance Criteria From Previous Assignment
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -32,20 +32,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-## My Own Mock-Up Desktop
-
-![portfolio demo](./assets/02-advanced-css-homework-demo-desktop.png)
-
-## My Own Mock-Up Mobile
-
-![portfolio demo](./assets/02-advanced-css-homework-demo-mobile.png)
-
-## Original Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./assets/02-advanced-css-homework-demo.gif)
 
 ## Helful Links
 
