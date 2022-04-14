@@ -9,6 +9,14 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <link rel="stylesheet" href="./assets/css/main.css" />
+  <script type="text/javascript">
+    var onloadCallback = function() {
+      grecaptcha.render('html_element', {
+        'sitekey' : '6LcOCXUfAAAAADNKmmFG3OLkqu0ETOawfeBJcU0c'
+      });
+    };
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -20,7 +28,7 @@
           <a class="navbar-item">
             Home &nbsp<ion-icon name="home"></ion-icon>
           </a>
-          <a class="navbar-item">
+          <a href="#" class="navbar-item js-modal-trigger" data-target="modal-capcha">
             My Resume &nbsp<ion-icon name="document">
               </ion-ico>
           </a>
@@ -281,6 +289,29 @@
       </footer>
     </div>
   </div>
+
+  <div id="modal-capcha" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">My Resume</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <form action="./assets/img/rev.jpg" method="GET" class="is-flex is-flex-direction-column is-align-items-center">
+          <div id="html_element"></div> 
+        </br>
+          <input class="button is-success" type="submit" value="Download">
+        </form>
+        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+            async defer>
+        </script>
+      </section>
+    </div>      
+
+    </div>
+  </div>
+
   <script src="./assets/js/modal.js"></script>
 </body>
 
