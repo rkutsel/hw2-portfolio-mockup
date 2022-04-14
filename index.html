@@ -1,269 +1,290 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Roman Kutsel</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <link rel="stylesheet" href="./assets/css/main.css"/>
-  </head>
-  <body>
 
-    <header>
-      <nav role="navigation" aria-label="main navigation" class="navbar is-dark has-shadow">
-        <div class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">
-              Home &nbsp<ion-icon name="home"></ion-icon>
-            </a>
-            <a class="navbar-item">
-              My Resume &nbsp<ion-icon name="document"></ion-ico>
-            </a>
-              <a class="navbar-item js-modal-trigger" data-target="modal-about-me"> About Me &nbsp
-                <ion-icon name="information-circle"></ion-icon>
-              </a>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link"> More </a>
-              <div class="navbar-dropdown">
-                <a class="navbar-item"> Contact </a>
-                <hr class="navbar-divider" />
-                <a class="navbar-item"> Report An Issue </a>
-              </div>
-            </div>
-          </div>
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a href="https://github.com/rkutsel" target="_blank" class="button is-light">
-                  <ion-icon name="logo-github"></ion-icon>
-                  &nbsp Github
-                </a>
-              </div>
-            </div>
-            <div class="navbar-item">
-              <div class="buttons">
-                <a href="https://www.linkedin.com/in/rkutsel" target="_blank" class="button is-light">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                  &nbsp LinkedIn
-                </a>
-              </div>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roman Kutsel</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav role="navigation" aria-label="main navigation" class="navbar is-dark has-shadow">
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home &nbsp<ion-icon name="home"></ion-icon>
+          </a>
+          <a class="navbar-item">
+            My Resume &nbsp<ion-icon name="document">
+              </ion-ico>
+          </a>
+          <a class="navbar-item js-modal-trigger" data-target="modal-about-me"> About Me &nbsp
+            <ion-icon name="information-circle"></ion-icon>
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item"> Contact </a>
+              <hr class="navbar-divider" />
+              <a class="navbar-item"> Report An Issue </a>
             </div>
           </div>
         </div>
-      </nav>
-    </header>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="https://github.com/rkutsel" target="_blank" class="button is-light">
+                <ion-icon name="logo-github"></ion-icon>
+                &nbsp Github
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="https://www.linkedin.com/in/rkutsel" target="_blank" class="button is-light">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                &nbsp LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
 
-    <section class="hero is-light has-shadow">
-      <div class="hero-body">
-        <div class="columns">
-          <div class="column is-1">
+  <section class="hero is-light has-shadow">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column is-1">
           <figure class="image is-128x128">
             <img class="is-rounded" src="./assets/img/avatar.jpg" />
           </figure>
-          </div>
+        </div>
         <div class="column is-11 is-hidden-mobile">
           <section class="section">
             <h1 class="title is-family-monospace">Roman Kutsel</h1>
           </section>
         </div>
-      </div>  
-      </div>
-    </section>
-
-    <div class="columns">
-      <div class="column is-2">
-        <section class="section has-text-left has-text-weight-bold">
-          Recent Work
-        </section>
-      </div>
-      <section class="section column is-10">
-      <!-- first row -->
-      <div class="columns">
-        <section class="column is-6">          
-          <div class="card">
-            <a href="https://rkutsel.github.io/rev">
-            <div class="card-image">
-              <figure class="image is-1x1">
-                <div class="bulma-overlay-mixin-parent">
-                  <div class="bulma-overlay-mixin">
-                <img src="./assets/img/rev.jpg" alt="Placeholder image">
-              </div>
-            </div>
-              </figure>
-            </a>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p>
-                    I developed a single-page app that finds nearby electric charging stations in major U.S. cities. The app is able to save items from search queries that are kept in Local Storage. I used <strong>Materialize</strong> as a CSS 
-                    framework. Also used <strong>OpenStreetMap</strong>, <strong>OpenChargeMap</strong>, <strong>IPAPI</strong> APIs.  
-                    The <strong>leafletjs</strong> library was used to aid the development work.
-                    <p><a href="https://github.com/rkutsel/rev" target="_blank"><strong>Check out the source code.</strong></a> and reach out if you want to contribute.</p>
-                  </br> </br>Although I had freedom to chose the project, this was part of <a href="https://bootcamp.uw.edu" target="_blank"><strong>UW Coding Bootcamp</strong></a> program.
-                  </p>
-                </div>
-              </div>
-            </div>
-        </section>
-        <section class="column is-6">          
-          <div class="card">
-            <a href="https://rkutsel.github.io/js-weather-dashboard/">
-            <div class="card-image">
-              <figure class="image is-1x1">
-                <div class="bulma-overlay-mixin-parent">
-                  <div class="bulma-overlay-mixin">
-                <img src="./assets/img/weather-dash.png" alt="Placeholder image">
-              </div>
-            </div>
-              </figure>
-            </a>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p>
-                    A simple single-page vanilla <strong>JS</strong> weather dashboard app that gets current and future weather forecast based on the input search. I used <strong>Bootstrap</strong> as a CSS 
-                    framework and <strong>OpenWeather</strong> APIs. 
-                  </br></br> Would like to keep adding more features to it. If you're interested too, reach out to me. 
-                  </p> </br>
-                  <p><a href="https://github.com/rkutsel/js-weather-dashboard" target="_blank"><strong>Check out the source code.</strong></a></p>
-                </br></br></br></br>
-                </div>
-              </div>
-            </div>
-            </section>
-          </div>
-    <!-- second row -->
-          <div class="columns">
-            <section class="column is-6">          
-              <div class="card">
-                <a href="https://rkutsel.github.io/js-day-scheduler/">
-                <div class="card-image">
-                  <figure class="image is-1x1">
-                    <div class="bulma-overlay-mixin-parent">
-                      <div class="bulma-overlay-mixin">
-                    <img src="./assets/img/day-scheduler.png" alt="Placeholder image">
-                  </div>
-                </div>
-                  </figure>
-                </a>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
-                        <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p>
-                        Another single-page app to schedule your day. I used <strong>Bootstrap</strong> for CSS It also relies on Local Storage to keep the tasks saved permanently.  
-                        Also used <strong>JQuery</strong> just for the sake of learning it along with <strong>Moment.js</strong>. 
-                        <p><a href="https://github.com/rkutsel/js-day-scheduler" target="_blank"><strong>Source code.</strong></a></p>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-            </section>
-            <section class="column is-6">          
-              <div class="card">
-                <a href="https://rkutsel.github.io/js-password-generator/">
-                <div class="card-image">
-                  <figure class="image is-1x1">
-                    <div class="bulma-overlay-mixin-parent">
-                      <div class="bulma-overlay-mixin">
-                    <img src="./assets/img/pw-gen.png" alt="Placeholder image">
-                  </div>
-                </div>
-                  </figure>
-                </a>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
-                        <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p>
-                        A very simple JS password generator. Based on user selection options, it generates a random password. 
-                      </p> </br>
-                      <p><a href="https://github.com/rkutsel/js-password-generator" target="_blank"><strong>Source code.</strong></a></p>
-                    </br>
-                    </div>
-                  </div>
-                </div>
-                </section>
-              </div>
-
-        </section>
-      </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <a href="https://www.linkedin.com/in/rkutsel"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
-        <a href="https://github.com/rkutsel" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+  </section>
+
+  <div class="columns">
+    <div class="column is-1">
+      <section class="section has-text-left has-text-weight-bold">
+        Recent Work
+      </section>
+    </div>
+    <section class="section column is-11">
+      <!-- first row -->
+      <div class="columns">
+        <section class="column is-3">
+          <div class="card card-equal-height">
+            <a href="https://rkutsel.github.io/rev">
+              <div class="card-image">
+                <figure class="image is-1x1">
+                  <div class="bulma-overlay-mixin-parent">
+                    <div class="bulma-overlay-mixin">
+                      <img src="./assets/img/rev.jpg" alt="Placeholder image">
+                    </div>
+                  </div>
+                </figure>
+            </a>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p>
+                  I developed a single-page app that finds nearby electric charging stations in major U.S. cities. The
+                  app is able to save items from search queries that are kept in Local Storage. I used
+                  <strong>Materialize</strong> as a CSS
+                  framework. Also used <strong>OpenStreetMap</strong>, <strong>OpenChargeMap</strong>,
+                  <strong>IPAPI</strong> APIs.
+                  The <strong>leafletjs</strong> library was used to aid the development work.
+                <p><a href="https://github.com/rkutsel/rev" target="_blank"><strong>Check out the source
+                      code.</strong></a> and reach out if you want to contribute.</p>
+                </br> </br>Although I had freedom to chose the project, this was part of <a
+                  href="https://bootcamp.uw.edu" target="_blank"><strong>UW Coding Bootcamp</strong></a> program.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- </div> -->
+        <!-- second row -->
+        <!-- <div class="columns"> -->
+        <section class="column is-3">
+          <div class="card card-equal-height">
+            <a href="https://rkutsel.github.io/js-day-scheduler/">
+              <div class="card-image">
+                <figure class="image is-1x1">
+                  <div class="bulma-overlay-mixin-parent">
+                    <div class="bulma-overlay-mixin">
+                      <img src="./assets/img/day-scheduler.png" alt="Placeholder image">
+                    </div>
+                  </div>
+                </figure>
+            </a>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p>
+                  Another single-page app to schedule your day. I used <strong>Bootstrap</strong> for CSS It also relies
+                  on Local Storage to keep the tasks saved permanently.
+                  Also used <strong>JQuery</strong> just for the sake of learning it along with
+                  <strong>Moment.js</strong>.
+                <p><a href="https://github.com/rkutsel/js-day-scheduler" target="_blank"><strong>Source
+                      code.</strong></a></p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="column is-3">
+          <div class="card card-equal-height">
+            <a href="https://rkutsel.github.io/js-password-generator/">
+              <div class="card-image">
+                <figure class="image is-1x1">
+                  <div class="bulma-overlay-mixin-parent">
+                    <div class="bulma-overlay-mixin">
+                      <img src="./assets/img/pw-gen.png" alt="Placeholder image">
+                    </div>
+                  </div>
+                </figure>
+            </a>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p>
+                  A very simple JS password generator. Based on user selection options, it generates a random password.
+                </p> </br>
+                <p><a href="https://github.com/rkutsel/js-password-generator" target="_blank"><strong>Source
+                      code.</strong></a></p>
+                </br>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="column is-3">
+          <div class="card card-equal-height">
+            <a href="https://rkutsel.github.io/js-weather-dashboard/">
+              <div class="card-image">
+                <figure class="image is-1x1">
+                  <div class="bulma-overlay-mixin-parent">
+                    <div class="bulma-overlay-mixin">
+                      <img src="./assets/img/weather-dash.png" alt="Placeholder image">
+                    </div>
+                  </div>
+                </figure>
+            </a>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="./assets/img/Javascript_Logo.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p>
+                  A simple single-page vanilla <strong>JS</strong> weather dashboard app that gets current and future
+                  weather forecast based on the input search. I used <strong>Bootstrap</strong> as a CSS
+                  framework and <strong>OpenWeather</strong> APIs.
+                  </br></br> Would like to keep adding more features to it. If you're interested too, reach out to me.
+                </p> </br>
+                <p><a href="https://github.com/rkutsel/js-weather-dashboard" target="_blank"><strong>Check out the
+                      source code.</strong></a></p>
+                </br></br></br></br>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </footer>
-<!-- about me modal -->
-    <div id="modal-about-me" class="modal">
-      <div class="modal-background"></div>
-      <div class="modal-card">
-        <header class="modal-card-head">
-          <p class="modal-card-title">In a few words...</p>
-          <button class="delete" aria-label="close"></button>
-        </header>
-        <section class="modal-card-body">
-          <strong>Who I am</strong>
-          <p>A no-voice software developer with extensive background in backend infrastructure. 
-            In the last few years my focus and energy shifted from building and deploying computing resources in data-centers to 
+
+    </section>
+  </div>
+  </div>
+  </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <a href="https://www.linkedin.com/in/rkutsel">
+        <ion-icon name="logo-linkedin" size="large"></ion-icon>
+      </a>
+      <a href="https://github.com/rkutsel" target="_blank">
+        <ion-icon name="logo-github" size="large"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-twitter" size="large"></ion-icon>
+      </a>
+    </div>
+  </footer>
+  <!-- about me modal -->
+  <div id="modal-about-me" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">In a few words...</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <strong>Who I am</strong>
+        <p>A no-voice software developer with extensive background in backend infrastructure.
+          In the last few years my focus and energy shifted from building and deploying computing resources in
+          data-centers to
           building things in the cloud: <strong>AWS</strong>, <strong>Azure</strong> and <strong>GCP</strong>.</br></br>
 
-          Currently enrolled in a <a href="https://bootcamp.uw.edu/coding/" target="_blank"><strong>UW Coding Bootcamp</strong></a> program that exposed me to interesting challenges of full-stack
+          Currently enrolled in a <a href="https://bootcamp.uw.edu/coding/" target="_blank"><strong>UW Coding
+              Bootcamp</strong></a> program that exposed me to interesting challenges of full-stack
           software development.
-          I plan on updating my projects as I go through the program along with the ones I will be working on the side.</br></br>   
+          I plan on updating my projects as I go through the program along with the ones I will be working on the
+          side.</br></br>
         </p>
-          <strong>What I like outside of my work</strong>
-          <p>Everything that beautiful <strong>PNW</strong> has to offer. Luckily we have a lot out here.</br></br>
+        <strong>What I like outside of my work</strong>
+        <p>Everything that beautiful <strong>PNW</strong> has to offer. Luckily we have a lot out here.</br></br>
         </p>
         <strong>Want to work on things together?</strong>
         <p>Then please reach out to me and let's talk about it!</p>
-        </section>
-        <footer class="modal-card-foot is-justify-content-center">
-          <div class="content">
-            <a href="https://www.linkedin.com/in/rkutsel"><ion-icon name="logo-linkedin" size="large"></ion-icon></a>
-            <a href="https://github.com/rkutsel" target="_blank"><ion-icon name="logo-github" size="large"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
-          </div>
-        </footer>
-      </div>
+      </section>
+      <footer class="modal-card-foot is-justify-content-center">
+        <div class="content">
+          <a href="https://www.linkedin.com/in/rkutsel">
+            <ion-icon name="logo-linkedin" size="large"></ion-icon>
+          </a>
+          <a href="https://github.com/rkutsel" target="_blank">
+            <ion-icon name="logo-github" size="large"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter" size="large"></ion-icon>
+          </a>
+        </div>
+      </footer>
     </div>
-    <script src="./assets/js/modal.js"></script>
-  </body>
+  </div>
+  <script src="./assets/js/modal.js"></script>
+</body>
+
 </html>
