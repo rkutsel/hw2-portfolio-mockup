@@ -1,4 +1,4 @@
-[# Personal Portfolio Page](https://rkutsel.github.io/krn/)
+# [Personal Portfolio Page](https://rkutsel.github.io/krn/)
 
 ## Description
 
