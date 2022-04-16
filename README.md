@@ -1,8 +1,8 @@
-[# Homework Week II Personal Portfolio Mockup Page](https://rkutsel.github.io/personal-portfolio-page/)
+[# Homework Week II Personal Portfolio Mockup Page](https://rkutsel.github.io/krn/)
 
 ## Description
 
-Placeholder for the personal web page portfolio homework assignment. My approach was to mimic the look of the actual mockup page we got in the assignment. The end result looks very close to the original page with some slightly different touches that were added based on the user story and the acceptance criteria. Additionally included links to guides/articles that helped with the assignment. [Live Page](https://rkutsel.github.io/personal-portfolio-page/)
+Placeholder for the personal web page portfolio homework assignment. My approach was to mimic the look of the actual mockup page we got in the assignment. The end result looks very close to the original page with some slightly different touches that were added based on the user story and the acceptance criteria. Additionally included links to guides/articles that helped with the assignment. [Live Page](https://rkutsel.github.io/krn/)
 
 ## User Story From Previous Assignment
 
