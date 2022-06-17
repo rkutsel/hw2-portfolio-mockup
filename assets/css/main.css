@@ -1,6 +1,6 @@
-/* .navbar {
-  background: linear-gradient(#070707, #d7dadb);
-} */
+* {
+  transition: all 0.3s ease-out;
+}
 
 .bulma-overlay-mixin {
   @include overlay(1rem);
@@ -9,6 +9,14 @@
   color: white;
   opacity: 0.9;
   padding: 1em;
+}
+
+.card img:hover {
+  transition: all 0.5s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  background-color: white;
+  transform: scale(1.1);
 }
 
 .card-equal-height {
@@ -25,6 +33,7 @@
   margin: 0 auto;
   margin-top: -21px;
 }
+
 .fb9 {
   display: flexbox;
   align-self: flex-end;
